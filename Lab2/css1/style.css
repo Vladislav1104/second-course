@@ -1,0 +1,52 @@
+.title{
+    color: #F0FFFF;
+}
+
+body{
+    font-size: 24px;
+    color: #000000;
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #095461;
+}
+
+.input{
+    width: 720px;
+}
+
+.list{
+    list-style: none;
+    background-color: #F0FFFF;
+    padding: 35px;
+    border: 6px double #070707;
+    text-align: left;
+}
+
+.task{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-items: space-between;
+    width: 730px;
+    margin: 5.5px;
+}
+
+.text{
+    width: 700px;
+    overflow-wrap: break-word;
+}
+
+.checkbox{
+    margin-right: 25px;
+}
+
+.delBtn {
+    margin-left: auto;
+}
+
+.done{
+    margin-left: 40px;
+    text-decoration: line-through;
+    color: #990000;
+}

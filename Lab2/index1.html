@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo List</title>
+    <link rel="stylesheet" href="./css1/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title"> Чекер</h1>
+        <form onsubmit="addTask(); return false">
+            <input type="text" placeholder="Введите текст задачи" class="input" >
+            <input type="submit" value="Добавить" >
+        </form> 
+    </header>
+    <main>
+        <ul class="list"></ul>
+    </main>
+    <script src="./js1/app.js"></script>
+</body>
+</html>
